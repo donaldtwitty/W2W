@@ -2,6 +2,24 @@ body {
     color: rgb(128, 128, 128) !important;
 }
 
+.text-center h2 {
+    color: #B88917;
+}
+
+.text-center h3 {
+    font-size: 18px;
+    color: #920E81;
+}
+
+.text-center {
+    padding-top: 100px;
+}
+
+.text-center p {
+    text-align: center;
+    color: #920E81;
+}
+
 .social li {
     display: inline;
     padding-left: 5% !important;
@@ -110,6 +128,7 @@ a {
     }
 }
 
+
 .main a {
     background-color: #D36F6F !important;
     width: 30%;
@@ -131,17 +150,18 @@ img {
 
 .text p {
     font-size: 18px;
+    color: #920E81;
 }
 
 button {
     margin-left: 40%;
-    background-color: #D36F6F;
+    background-color: #B88917;
     color: white;
     padding: 2% 9% 2% 9%;
 }
 
 .text {
-    border-left: 3px solid #D36F6F;
+    border-left: 3px solid #920E81;
     padding-left: 5%;
     margin-left: 5%;
 }
@@ -156,7 +176,7 @@ button {
 }
 
 .third .line, .fourth .line {
-    border-left: 3px solid #D36F6F;
+    border-left: 3px solid #920E81;
     margin-left: 0 !important;
 }
 
@@ -167,7 +187,6 @@ button {
 }
 
 .text_footer {
-    padding: 5%;
     color: white;
 }
 
