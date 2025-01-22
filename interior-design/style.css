@@ -2,6 +2,11 @@ body {
     color: rgb(128, 128, 128) !important;
 }
 
+.ul {
+    font-size: 18px;
+    color: #920E81;
+}
+
 .text-center h2 {
     color: #B88917;
 }
@@ -102,6 +107,10 @@ a {
     margin-right: 20px; /* Add spacing between the image and the line */
 }
 
+.footer-image {
+    width: 100px;
+}
+
 .line {
     color: #920E81;
     padding: 4%;
@@ -164,6 +173,9 @@ button {
     border-left: 3px solid #920E81;
     padding-left: 5%;
     margin-left: 5%;
+}
+.text-left-border {
+    border-right: 3px solid #920E81;
 }
 
 .photo {
