@@ -65,6 +65,8 @@ a {
 .carousel-caption {
     background-color: rgba(255, 208, 208, 0.8);
 !important;
+    /*z-index: 11px;*/
+    /*color: rgb(128, 128, 128) !important;*/
 }
 
 .carousel-control-prev {
