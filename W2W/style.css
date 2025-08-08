@@ -96,7 +96,7 @@ a {
 .caption-content {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .left-image {
@@ -116,22 +116,68 @@ a {
     text-align: left;
 }
 
-/* Responsive adjustments */
+/* Mobile Responsive Styles */
 @media (max-width: 768px) {
     .caption-content {
-        flex-direction: column; /* Stack the image and line vertically on smaller screens */
-        align-items: center; /* Center-align content for smaller screens */
+        flex-direction: column;
+        align-items: center;
     }
 
     .left-image {
-        margin: 0 auto 15px; /* Center the image and add bottom margin */
-        width: 80%; /* Scale the image size for mobile */
+        margin: 0 auto 15px;
+        width: 150px;
+        max-width: 80%;
     }
 
     .line {
-        padding-left: 0; /* Remove padding for mobile view */
-        text-align: center; /* Center-align text for better presentation */
-        border-left: none; /* Hide the line in mobile view */
+        padding: 2%;
+        text-align: center;
+        border-left: none;
+    }
+
+    .carousel-caption {
+        bottom: 20% !important;
+        top: 20% !important;
+        left: 5% !important;
+        right: 5% !important;
+    }
+
+    .text-center {
+        padding-top: 30px;
+    }
+
+    .text {
+        border-left: none;
+        padding-left: 15px;
+        margin-left: 0;
+    }
+
+    .text-left-border {
+        border-right: none;
+        border-top: 3px solid #920E81;
+        padding-top: 20px;
+    }
+
+    button {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .third button {
+        margin-left: 0;
+    }
+
+    .footer-image {
+        width: 80px;
+    }
+
+    .footer .row {
+        text-align: center;
+    }
+    
+    .footer .col-12 {
+        margin-bottom: 15px;
     }
 }
 
@@ -148,6 +194,11 @@ a {
 
 img {
     width: 100%;
+}
+
+img.founder-img {
+    padding-top: 300px;
+
 }
 
 .second.row {
@@ -174,6 +225,7 @@ button {
 }
 .text-left-border {
     border-right: 3px solid #920E81;
+    padding-right: 30px;
 }
 
 .photo {
@@ -192,8 +244,7 @@ button {
 
 .footer {
     background-color: #D36F6F;
-
-
+    padding: 15px 0;
 }
 
 .text_footer {
@@ -209,15 +260,38 @@ button {
     color: white !important;
 }
 
-@media (max-width: 599px) and (min-width: 0px) {
-
+@media (max-width: 599px) {
     .main .line {
         margin-left: 0 !important;
-        padding: 0 !important;
+        padding: 10px !important;
     }
 
     .main h3 {
-        font-size: 14px !important;
-        line-height: 0.5 !important;
+        font-size: 16px !important;
+        line-height: 1.2 !important;
+    }
+
+    .main p {
+        font-size: 14px;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+
+    .second .col-12 {
+        margin-bottom: 20px;
+    }
+
+    .third .col-12 {
+        margin-bottom: 20px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 18px !important;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
     }
 }
